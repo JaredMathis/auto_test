@@ -1,9 +1,13 @@
 {
   "dependencies": {
-    "m00": "^0.0.6"
+    "m00": "^0.0.8"
   },
   "scripts": {
-    "m": "node ./node_modules/m00/src/command.mjs",
-    "mg": "node ./node_modules/m00/src/command_git.mjs"
+    "m": "node node_modules\\m00\\src\\command.mjs",
+    "mg": "node node_modules\\m00\\src\\command_git.mjs"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   }
 }
