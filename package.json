@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "m00": "^0.0.5"
+    "m00": "^0.0.6"
   },
   "scripts": {
     "m": "node ./node_modules/m00/src/command.mjs",
