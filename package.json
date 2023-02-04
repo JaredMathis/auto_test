@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "m00": "^0.0.12"
+    "m00": "^0.0.13"
   },
   "devDependencies": {
     "http-server": "^14.1.1",
