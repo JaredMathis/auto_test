@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"main\": () => (/* binding */ main)\n/* harmony export */ });\n/* harmony import */ var _node_modules_m00_src_element_text_mjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../node_modules/m00/src/element/text.mjs */ \"./node_modules/m00/src/element/text.mjs\");\n\nfunction main() {\n    (0,_node_modules_m00_src_element_text_mjs__WEBPACK_IMPORTED_MODULE_0__.element_text)(document.body, 'div', 'Hello');\n}\n\n//# sourceURL=webpack:///./src/main.mjs?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"main\": () => (/* binding */ main)\n/* harmony export */ });\n/* harmony import */ var _node_modules_m00_src_element_text_mjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../node_modules/m00/src/element/text.mjs */ \"./node_modules/m00/src/element/text.mjs\");\n\nfunction main() {\n    element_with_text(document.body, 'div', 'Hello');\n}\n\n//# sourceURL=webpack:///./src/main.mjs?");
 
 /***/ })
 
