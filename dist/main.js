@@ -130,26 +130,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./node_modules/m00/src/element/text.mjs":
-/*!***********************************************!*\
-  !*** ./node_modules/m00/src/element/text.mjs ***!
-  \***********************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"element_text\": () => (/* binding */ element_text)\n/* harmony export */ });\n/* harmony import */ var _arguments_assert_mjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../arguments/assert.mjs */ \"./node_modules/m00/src/arguments/assert.mjs\");\n/* harmony import */ var _defined_is_mjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../defined/is.mjs */ \"./node_modules/m00/src/defined/is.mjs\");\n/* harmony import */ var _string_is_mjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../string/is.mjs */ \"./node_modules/m00/src/string/is.mjs\");\n\n\n\nfunction element_text(e, text) {\n    (0,_arguments_assert_mjs__WEBPACK_IMPORTED_MODULE_0__.arguments_assert)(arguments, _defined_is_mjs__WEBPACK_IMPORTED_MODULE_1__.defined_is, _string_is_mjs__WEBPACK_IMPORTED_MODULE_2__.string_is);\n    e.innerHTML = text;\n}\n\n//# sourceURL=webpack:///./node_modules/m00/src/element/text.mjs?");
-
-/***/ }),
-
-/***/ "./node_modules/m00/src/element/with/text.mjs":
-/*!****************************************************!*\
-  !*** ./node_modules/m00/src/element/with/text.mjs ***!
-  \****************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"element_with_text\": () => (/* binding */ element_with_text)\n/* harmony export */ });\n/* harmony import */ var _text_mjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../text.mjs */ \"./node_modules/m00/src/element/text.mjs\");\n/* harmony import */ var _element_mjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../../element.mjs */ \"./node_modules/m00/src/element.mjs\");\n\n\nfunction element_with_text(parent, tag_name, text) {\n    let e = (0,_element_mjs__WEBPACK_IMPORTED_MODULE_1__.element)(parent, tag_name);\n    (0,_text_mjs__WEBPACK_IMPORTED_MODULE_0__.element_text)(e, text);\n    return e;\n}\n\n//# sourceURL=webpack:///./node_modules/m00/src/element/with/text.mjs?");
-
-/***/ }),
-
 /***/ "./node_modules/m00/src/for/each.mjs":
 /*!*******************************************!*\
   !*** ./node_modules/m00/src/for/each.mjs ***!
@@ -236,7 +216,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"main\": () => (/* binding */ main)\n/* harmony export */ });\n/* harmony import */ var _node_modules_m00_src_defaults_set_mjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../node_modules/m00/src/defaults/set.mjs */ \"./node_modules/m00/src/defaults/set.mjs\");\n/* harmony import */ var _node_modules_m00_src_element_input_mjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../node_modules/m00/src/element/input.mjs */ \"./node_modules/m00/src/element/input.mjs\");\n/* harmony import */ var _node_modules_m00_src_element_with_text_mjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../node_modules/m00/src/element/with/text.mjs */ \"./node_modules/m00/src/element/with/text.mjs\");\n\n\n\nfunction main() {\n    (0,_node_modules_m00_src_defaults_set_mjs__WEBPACK_IMPORTED_MODULE_0__.defaults_set)('input', { width: '50%' });\n    (0,_node_modules_m00_src_element_with_text_mjs__WEBPACK_IMPORTED_MODULE_2__.element_with_text)(document.body, 'div', 'Hello');\n    (0,_node_modules_m00_src_element_input_mjs__WEBPACK_IMPORTED_MODULE_1__.element_input)(document.body);\n}\n\n//# sourceURL=webpack:///./src/main.mjs?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"main\": () => (/* binding */ main)\n/* harmony export */ });\n/* harmony import */ var _node_modules_m00_src_element_mjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../node_modules/m00/src/element.mjs */ \"./node_modules/m00/src/element.mjs\");\n/* harmony import */ var _node_modules_m00_src_defaults_set_mjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../node_modules/m00/src/defaults/set.mjs */ \"./node_modules/m00/src/defaults/set.mjs\");\n/* harmony import */ var _node_modules_m00_src_element_input_mjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../node_modules/m00/src/element/input.mjs */ \"./node_modules/m00/src/element/input.mjs\");\n\n\n\nfunction main() {\n    (0,_node_modules_m00_src_defaults_set_mjs__WEBPACK_IMPORTED_MODULE_1__.defaults_set)(_node_modules_m00_src_element_mjs__WEBPACK_IMPORTED_MODULE_0__.element.name, { width: '100%' });\n    (0,_node_modules_m00_src_defaults_set_mjs__WEBPACK_IMPORTED_MODULE_1__.defaults_set)(_node_modules_m00_src_element_input_mjs__WEBPACK_IMPORTED_MODULE_2__.element_input.name, { width: '100%' });\n    (0,_node_modules_m00_src_element_input_mjs__WEBPACK_IMPORTED_MODULE_2__.element_input)(document.body);\n}\n\n//# sourceURL=webpack:///./src/main.mjs?");
 
 /***/ })
 
