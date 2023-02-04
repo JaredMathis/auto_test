@@ -90,6 +90,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./node_modules/m00/src/element/input.mjs":
+/*!************************************************!*\
+  !*** ./node_modules/m00/src/element/input.mjs ***!
+  \************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"element_input\": () => (/* binding */ element_input)\n/* harmony export */ });\n/* harmony import */ var _element_mjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../element.mjs */ \"./node_modules/m00/src/element.mjs\");\n/* harmony import */ var _style_default_mjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style/default.mjs */ \"./node_modules/m00/src/element/style/default.mjs\");\n\n\nfunction element_input(parent, placeholder) {\n    let b = (0,_element_mjs__WEBPACK_IMPORTED_MODULE_0__.element)(parent, 'input');\n    (0,_style_default_mjs__WEBPACK_IMPORTED_MODULE_1__.element_style_default)(b, element_input);\n    b.placeholder = placeholder;\n    return b;\n}\n\n//# sourceURL=webpack:///./node_modules/m00/src/element/input.mjs?");
+
+/***/ }),
+
 /***/ "./node_modules/m00/src/element/style.mjs":
 /*!************************************************!*\
   !*** ./node_modules/m00/src/element/style.mjs ***!
@@ -206,7 +216,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"main\": () => (/* binding */ main)\n/* harmony export */ });\n/* harmony import */ var _node_modules_m00_src_element_with_text_mjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../node_modules/m00/src/element/with/text.mjs */ \"./node_modules/m00/src/element/with/text.mjs\");\n\nfunction main() {\n    (0,_node_modules_m00_src_element_with_text_mjs__WEBPACK_IMPORTED_MODULE_0__.element_with_text)(document.body, 'div', 'Hello');\n}\n\n//# sourceURL=webpack:///./src/main.mjs?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"main\": () => (/* binding */ main)\n/* harmony export */ });\n/* harmony import */ var _node_modules_m00_src_element_input_mjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../node_modules/m00/src/element/input.mjs */ \"./node_modules/m00/src/element/input.mjs\");\n/* harmony import */ var _node_modules_m00_src_element_with_text_mjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../node_modules/m00/src/element/with/text.mjs */ \"./node_modules/m00/src/element/with/text.mjs\");\n\n\nfunction main() {\n    (0,_node_modules_m00_src_element_with_text_mjs__WEBPACK_IMPORTED_MODULE_1__.element_with_text)(document.body, 'div', 'Hello');\n    (0,_node_modules_m00_src_element_input_mjs__WEBPACK_IMPORTED_MODULE_0__.element_input)(document.body);\n}\n\n//# sourceURL=webpack:///./src/main.mjs?");
 
 /***/ })
 
