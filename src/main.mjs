@@ -1,4 +1,4 @@
-import { element } from './../node_modules/m00/src/element.mjs';
+import { element_text } from './../node_modules/m00/src/element/text.mjs';
 export function main() {
-    element(document.body, 'div', 'Hello');
+    element_text(document.body, 'div', 'Hello');
 }
